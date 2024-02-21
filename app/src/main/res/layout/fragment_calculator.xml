@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/buttonVirgul"
+        android:id="@+id/buttonDot"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="21dp"
@@ -35,7 +35,7 @@
 
 
     <Button
-        android:id="@+id/buttonEsittir"
+        android:id="@+id/buttonEqual"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="18dp"
@@ -45,7 +45,7 @@
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/buttonVirgul" />
+        app:layout_constraintStart_toEndOf="@+id/buttonDot" />
 
     <Button
         android:id="@+id/button1"
@@ -85,12 +85,12 @@
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/button0"
-        app:layout_constraintEnd_toStartOf="@+id/buttonArti"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPlus"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button2" />
 
     <Button
-        android:id="@+id/buttonArti"
+        android:id="@+id/buttonPlus"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginBottom="16dp"
@@ -142,12 +142,12 @@
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toStartOf="@+id/buttonEksi"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMinus"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button5" />
 
     <Button
-        android:id="@+id/buttonEksi"
+        android:id="@+id/buttonMinus"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginBottom="16dp"
@@ -155,7 +155,7 @@
         android:text="-"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonArti"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPlus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button6" />
@@ -198,12 +198,12 @@
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/button6"
-        app:layout_constraintEnd_toStartOf="@+id/buttonCarpma"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMultiply"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button8" />
 
     <Button
-        android:id="@+id/buttonCarpma"
+        android:id="@+id/buttonMultiply"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginBottom="16dp"
@@ -211,13 +211,13 @@
         android:text="×"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonEksi"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMinus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button9" />
 
     <Button
-        android:id="@+id/buttonBolme"
+        android:id="@+id/buttonDiv"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginBottom="16dp"
@@ -225,7 +225,7 @@
         android:text="÷"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonCarpma"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMultiply"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonisimsiz3" />
@@ -268,7 +268,7 @@
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/button9"
-        app:layout_constraintEnd_toStartOf="@+id/buttonBolme"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDiv"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonisimsiz2" />
 
@@ -282,7 +282,7 @@
         android:textAlignment="textEnd"
         android:textColor="@color/white"
         android:textSize="70sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonBolme"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDiv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

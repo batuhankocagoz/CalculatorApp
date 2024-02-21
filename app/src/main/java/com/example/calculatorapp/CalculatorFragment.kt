@@ -26,14 +26,14 @@ class CalculatorFragment : Fragment() {
         binding.button8.setOnClickListener { appendVal("8", false) }
         binding.button9.setOnClickListener { appendVal("9", false) }
 
-        binding.buttonBolme.setOnClickListener { appendVal("/", false) }
-        binding.buttonCarpma.setOnClickListener { appendVal("*", false) }
-        binding.buttonEksi.setOnClickListener { appendVal("-", false) }
-        binding.buttonArti.setOnClickListener { appendVal("+", false) }
-        binding.buttonVirgul.setOnClickListener { appendVal(".", false) }
+        binding.buttonDiv.setOnClickListener { appendVal("/", false) }
+        binding.buttonMultiply.setOnClickListener { appendVal("*", false) }
+        binding.buttonMinus.setOnClickListener { appendVal("-", false) }
+        binding.buttonPlus.setOnClickListener { appendVal("+", false) }
+        binding.buttonDot.setOnClickListener { appendVal(".", false) }
         binding.buttonClear.setOnClickListener { appendVal("", true) }
 
-        binding.buttonEsittir.setOnClickListener {
+        binding.buttonEqual.setOnClickListener {
 
             val expression = ExpressionBuilder(binding.textView.text.toString()).build()
             val result = expression.evaluate()
