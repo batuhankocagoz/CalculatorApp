@@ -5,6 +5,7 @@ Bu GitHub reposu, Kotlin kullanılarak geliştirilen temel seviye hesap makinesi
 - ViewBinding
 - Fragment
 - exp4j Kütüphanesi
+
 kullanılarak geliştirilmiştir.
 
 
